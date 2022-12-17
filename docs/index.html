@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>云玉云课堂-程序员的成长课堂</title>
+  <link rel="icon" href="pen.png" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="keywords" content="doc,docs,documentation,gitbook,creator,generator,gitee,gitee-pages"/>
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!-- 主题 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <!-- 当MD文档过多，加载慢的时候显示 -->
+  <div id="app">页面正在加载中，请您耐心等候......</div>
+  <script>
+    window.$docsify = {
+      name: '云玉云课堂',
+      repo: '',
+      // 跳转后自动到顶部
+      auto2top: true,
+      // 开启侧边栏
+      loadSidebar: true,
+      // 开启导航栏
+      loadNavbar: true,
+      // 开启首页功能
+      coverpage: true,
+      // 控制是否仅显示首页
+      onlyCover: true,
+      // 文档章节变成目录的层级
+      subMaxLevel:3,
+       //全局搜索
+      search: {
+        paths: 'auto',
+        placeholder: {
+          '/': '搜索'
+        },
+        noData: {
+          '/': '找不到结果'
+        },
+      },
+       // 代码一键复制
+       copyCode: {
+        buttonText: 'copy',
+        errorText: 'Error',
+        successText: 'copy success'
+      },
+      //字数统计，需要引入js
+      count: {
+        countable: true,
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese'
+      },
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- 搜索插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!--不同代码的高亮-->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-c.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-cpp.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-sql.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-c.js"></script>
+  <script src="//unpkg.com/prismjs@1.23.0/components.js"></script>
+  <!--代码复制-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+   <!--图片缩放-->
+   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+   <!--字数统计-->
+   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+   <!-- 页面返回顶部 -->
+   <script src="https://cdn.jsdelivr.net/gh/Sumsung524/docsify-backTop/dist/docsify-backTop.min.js"></script>
+</body>
+</html>
